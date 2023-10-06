@@ -1,2 +1,5 @@
-# mdds
-Template containing a (patterns) components library based on the design system "Material Design" and a documentation website
+# MDDS - "Material Design" Design System
+
+This template contains:
+-  A Components (Patterns) Library based on the design system "Material Design"
+-  A documentation website
