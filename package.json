@@ -1,6 +1,6 @@
 {
   "name": "@iagobarboza/mdds",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Template containing a component library based on the design system 'Material Design', and a documentation website.",
   "main": "index.js",
   "scripts": {
