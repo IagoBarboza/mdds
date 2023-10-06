@@ -1,0 +1,38 @@
+{
+  "name": "@iagobarboza/mdds",
+  "version": "0.1.0",
+  "description": "Template containing a component library based on the design system 'Material Design', and a documentation website.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build -o docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iagobarboza/mdds"
+  },
+  "author": "iagobarboza@gmail.com",
+  "dependencies": {
+    "@emotion/react": "11.11.1",
+    "@emotion/styled": "11.11.0",
+    "@fontsource/open-sans": "5.0.11",
+    "@fontsource/roboto": "5.0.5",
+    "@mui/icons-material": "5.14.3",
+    "@mui/material": "5.14.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.22.9",
+    "@babel/preset-react": "7.22.5",
+    "@babel/preset-typescript": "7.22.5",
+    "@storybook/addon-essentials": "7.1.0",
+    "@storybook/blocks": "7.1.0",
+    "@storybook/react": "7.1.0",
+    "@storybook/react-webpack5": "7.1.0",
+    "@storybook/testing-library": "0.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "storybook": "7.1.0",
+    "typescript": "5.1.6"
+  }
+}
