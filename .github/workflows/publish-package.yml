@@ -1,0 +1,22 @@
+name: Publish Package
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 14
+          registry-url: 'https://npm.pkg.github.com'
+      - run: npm i && npm run build && cp -r src/Icons dist/Icons && npm publish dist
+        env: 
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
